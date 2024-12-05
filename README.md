@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-BeatBox_Project
-=======
-# BEATBOX-ECE-425-Final-Project
->>>>>>> d3882749d8d7d9bd551dab49f7640b790d7217a2
+<h1>BEATBOX: Buzzer- Enhanced Audio Tuning for Buzzer Output eXperience</h1>
+<hr><p>Create a musical device that combines a rotary encoder, display, buzzer, and the TM4C123GXL LaunchPad to deliver customizable sound experiences.</p><h2>Technologies Used</h2>
+<hr><ul>
+<li>C</li>
+</ul>
