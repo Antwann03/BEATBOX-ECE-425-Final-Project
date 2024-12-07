@@ -1,8 +1,7 @@
-<h1>BEATBOX: Buzzer- Enhanced Audio Tuning for Buzzer Output eXperience</h1>
-<hr><p>Create a musical device that combines a rotary encoder, display, buzzer, and the TM4C123GXL LaunchPad to deliver customizable sound experiences.</p><h2>Introduction</h2>
+<h1>BEATBOX: Introduction</h1>
+<hr><p>This repository contains the Keil uVision5 project files for my BEATBOX project, developed for the ECE 425 (Microprocessor Systems)class in Fall 2024. The project features a musical device powered by the TM4C123GXL LaunchPad, integrating a rotary encoder, 16x2 LCD, and a piezo buzzer to deliver customizable sound experiences.</p><h2>General Information</h2>
 <hr><ul>
-<li>This repository includes the Keil uVision5 project files of my BEATBOX project for my ECE 425 class( Microprocessor Systems) from Fall 2024.
-The project utilizes the TM4C123GXL LaunchPad Microcontroller to create an interactive music player system capable of playing 4 different songs. The setup includes a piezo buzzer for audio input, a 16x2 LCD Display for menu navigation and song selection, a rotary encoder for user input, and jumper wires for connectivity. This combination allows users to select and play songs with visual feedback through display.</li>
+<li>The project utilizes the TM4C123GXL LaunchPad Microcontroller to create an interactive music player system capable of playing 4 different songs. The setup includes a piezo buzzer for audio input, a 16x2 LCD Display for menu navigation and song selection, a rotary encoder for user input, and jumper wires for connectivity. This combination allows users to select and play songs with visual feedback through display.</li>
 </ul><ul>
 <li>Traditional music players are costly or difficult to construct and sometimes lack the interactivity required for educational projects. To address these problems, this project will develop a straightforward, interactive music system. It uses a microcontroller, an LCD, a rotary encoder, and a piezo buzzer to enhance usability. The TM4C123GXL LaunchPad manages the user input and controls the system, the LCD provides visual feedback, the rotary encoder facilitates menu navigation, and the piezo buzzer produces audio output.</li>
 </ul><ul>
