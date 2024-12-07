@@ -6,9 +6,9 @@
 <li>Traditional music players are costly or difficult to construct and sometimes lack the interactivity required for educational projects. To address these problems, this project will develop a straightforward, interactive music system. It uses a microcontroller, an LCD, a rotary encoder, and a piezo buzzer to enhance usability. The TM4C123GXL LaunchPad manages the user input and controls the system, the LCD provides visual feedback, the rotary encoder facilitates menu navigation, and the piezo buzzer produces audio output.</li>
 </ul><ul>
 <li>This project aims to design and build a simple, cost-effective, and interactive music-playing device that can be used for educational purposes or as a prototype for more advanced projects. By incorporating a user-friendly interference through the rotary encoder and LCD, the system allows users to select and play 4 songs, with clear visual feedback on the display. This improves accessibility and usability compared to traditional music systems.</li>
-</ul><h2>Technologies Used</h2>
+</ul><h2>Block Diagram</h2>
 <hr><ul>
-<li>C</li>
+<li>BEATBOX Project Block Diagram:</li>
 </ul><h2>Project Status</h2>
 <hr><p>In Progress</p><h2>Improvements</h2>
 <hr><ul>
