@@ -34,8 +34,8 @@
 <hr><p>
 
 
-|         Description                   | Quantity          |    Manufacturer   |    Price ($)       |    Link        |
-|         -------------                 |:-------------:    | -----:            |    -----:          |    -----:          |
+|         Description                   | Quantity          |    Manufacturer   |    Price ($)       |    Link       |
+|         :-------------:                 |:-------------:    | :-----:            |    :-----:          |    :-----:          |
 | Tiva C Series TM4C123G LaunchPad      | 1                 | Texas Instruments |   22.99 per unit   |    [Product Link](https://www.mouser.com/ProductDetail/Texas-Instruments/EK-TM4C123GXL?qs=TB%2FQ0sBK%2FGefKGr%252BQsiJWQ%3D%3D)       |
 | USB-A to Micro-USB Cable              | 1                 |       N/A         |   6.99 per unit    |    [Product Link](https://www.digikey.com/en/products/detail/sparkfun-electronics/CAB-24508/22321088?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-22321088_sig-CjwKCAiAmfq6BhAsEiwAX1jsZ-H07hC3CwGiLi2op_HnKewSouCI1NDJatIYMBnhYX5nmB_97Dw_4xoCQnAQAvD_BwE&gad_source=1&gclid=CjwKCAiAmfq6BhAsEiwAX1jsZ-H07hC3CwGiLi2op_HnKewSouCI1NDJatIYMBnhYX5nmB_97Dw_4xoCQnAQAvD_BwE&gclsrc=aw.ds)      |
 |         EduBase Board                 | 1                 |   Trainer4Edu     |   169.99 per unit  |    [Product Link](https://www.trainer4edu.com/edubase_v2/ti_arm_tiva_msp432_launchpad.html)       |
@@ -55,6 +55,24 @@
 | **TBD:** MF Doom (MM..Food)| Approx. 1 min  | Hip-Hop        | Option 4    | A tribute to MF Doom's creative genius   |
 </p>
 </ul>
+
+<h1>Drawing Mario on a 16x2 LCD: A Step-by-Step Tutorial</h1>
+General Procedure:
+
+1. We begin by designing a 5x8 pixel representation of Mario that fits into the custom character slots of the 16x2 LCD.
+2. Use a pixel art tool or online link (like a pixel editor) to create the design. You can use this link to get an idea of how the Mario pixel design should look on the 16x2 LCD. [Click Here](https://chareditor.com/)
+3. The design will take up 6 parts of 5x8 pixel art for Mario's torso, legs, head, etc.
+4. Next, using another online tool or design editor, create separate shapes for Mario's torso, leg, head, etc., ensuring that you use blue as the background color and select the Hex data type for each shape.[Click Here]( https://maxpromer.github.io/LCD-Character-Creator/)
+5. For each shape, obtain the Hexadecimal values for each 5x8 character representation.
+6. These Hexadecimal values should be 8 characters long (e.g., `0xFF, 0x81, 0x81, ...`), and you can copy and paste them directly.
+7. After obtaining the Hexadecimal values for Mario’s design, place these values into the header file that controls the LCD.
+8. This involves declaring these values as custom characters for the 16x2 LCD to reference them in your main code for display.
+9. Finally, you can call the custom character functions in your main program to display the Mario logo on the 16x2 LCD screen. Ensure that you position the custom characters properly across the two lines of the LCD.
+10. With these steps, Mario should be displayed across the 16x2 LCD as a series of custom characters, giving you a pixelated Mario design! The key is ensuring that each part of the design is carefully mapped and represented using the 5x8 matrix custom characters.
+11. It’s important to note that the 16x2 LCD has a limitation when it comes to displaying custom characters. The LCD's Character Generator RAM (CGRAM) can only store up to 8 custom characters at a time. Each custom character takes up 1 byte of memory, and since there are only 8 available slots, this limits the number of designs you can display at any given time. If you need to display more custom characters, you'll have to overwrite existing ones, which may require careful management of character memory to ensure the desired display.
+
+
+
 <h2>Acknowledgement</h2>
 <hr><ul>
 <li>Ever since I was young, I have always enjoyed playing Super Mario Bros, which sparked my interest in learning how to display characters on an LCD. My initial plan was to familiarize myself with basic LCD display techniques and eventually move on to a more ambitious project—a Super Mario Bros game using a different type of LCD display. This is why I decided to include a mini animation for Mario with his theme song playing in the background. Another key motivation for choosing this project was the recent release of a new album by one of my favorite artists. This inspired me to explore the possibility of playing music through a piezo buzzer, combining my love for music with my interest in electronics and programming.</li>
