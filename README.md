@@ -1,6 +1,6 @@
 <h1>Introduction</h1>
 
-<hr><p>This repository contains the Keil uVision5 project files for my BEATBOX project, developed for the ECE 425 (Microprocessor Systems)class in Fall 2024. The project features a musical device powered by the TM4C123GXL LaunchPad, integrating a rotary encoder, 16x2 LCD, and a piezo buzzer to deliver customizable sound experiences.
+<hr><p>The Keil uVision5 project files for my BEATBOX project, created for the Fall 2024 ECE 425 (Microprocessor Systems) course, are available in this repository. The project makes use of the TM4C123GXL LaunchPad, including a rotary encoder, 16x2 LCD, and a piezo buzzer to create an interactive system in which users may pick and play different tunes. 
   
 <p>Performed By:</p>
 <ul>
@@ -17,11 +17,26 @@
 <hr><ul>
 <li>The project utilizes the TM4C123GXL LaunchPad Microcontroller to create an interactive music player system capable of playing 4 different songs. The setup includes a piezo buzzer for audio input, a 16x2 LCD Display for menu navigation and song selection, a rotary encoder for user input, and jumper wires for connectivity. This combination allows users to select and play songs with visual feedback through display.</li>
 </ul>
-<ul>
-<li>This project aims to design and build a simple, cost-effective, and interactive music-playing device that can be used for educational purposes or as a prototype for more advanced projects. By incorporating a user-friendly interference through the rotary encoder and LCD, the system allows users to select and play 4 songs, with clear visual feedback on the display. This improves accessibility and usability compared to traditional music systems.</li>
-</ul>
 
 <h1>Project Goals</h1>
+
+- **Gain experience in designing a system that integrates hardware and software to create a functional music-playing device.**
+    - **Purpose**: This project will involve designing the hardware components (e.g., piezo buzzer, LCD, rotary encoder) and developing the software to interface with them, allowing for a seamless user experience.
+
+- **Design and implement a user-friendly interface with a rotary encoder and LCD for song selection.**
+    - **Purpose**: The goal is to create an easy-to-use interface that allows users to interact with the system by selecting songs through the rotary encoder while providing visual feedback on the LCD.
+
+- **Develop a software system that manages song playback and user inputs.**
+    - **Purpose**: The software will handle the playback of songs through the piezo buzzer and manage inputs from the rotary encoder, enabling users to select and play one of four songs. The software will also ensure smooth interaction between the hardware and the user.
+
+- **Design and implement custom character display on the LCD using CGRAM.**
+    - **Purpose**: This goal focuses on developing custom pixel art representations (e.g., Mario) for display on the 16x2 LCD. The custom characters will be stored in CGRAM and displayed based on user input or song selection.
+
+- **Optimize system performance to ensure responsive song selection and playback.**
+    - **Purpose**: This involves fine-tuning the system to ensure that the LCD interface and song playback remains smooth and responsive, even when switching between songs or interacting with the user interface.
+
+- **Learn to handle limited memory resources effectively for custom character and sound data.**
+    - **Purpose**: The project will provide experience in managing memory limitations, especially in terms of storing custom characters on the LCD and handling sound data for the piezo buzzer. This includes learning how to maximize the system's memory efficiency.
 
 <h1>Video Demonstration</h1>
 <ul>
