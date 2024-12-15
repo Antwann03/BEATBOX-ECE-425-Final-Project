@@ -1,6 +1,3 @@
-
-BeatBox_Project
-=======
 # BEATBOX-ECE-425-Final-Project
 =======
 <h1>Introduction</h1>
