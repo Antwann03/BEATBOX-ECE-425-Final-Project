@@ -11,7 +11,7 @@
 <h2>Block Diagram</h2>
 <hr>
 <ul>
-![alt text] (https://github.com/Antwann03/BEATBOX-ECE-425-Final-Project/blob/78ca7d9c4e4105423c831480d27a14daad8675eb/BeatBox_BlockDiagram.png)
+  ![image alt](https://github.com/Antwann03/BEATBOX-ECE-425-Final-Project/blob/main/BeatBox_BlockDiagram.png?raw=true)
 </ul>
 <h2>Project Status</h2>
 <hr><p>In Progress</p><h2>Improvements</h2>
