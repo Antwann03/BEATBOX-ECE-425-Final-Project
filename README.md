@@ -26,7 +26,7 @@
 <h1>Video Demonstration</h1>
 <ul>
   <li>Super Mario Theme Song and Doom Theme Song: <a href="https://drive.google.com/drive/folders/18Gsxb8AzG52me9FaFeyMrJjAmedufqEw">Link</a></li>
-  <li>Like Him - Tyler The Creator: ![Link](FullSizeRender.MOV)</li>
+  <li>Like Him - Tyler The Creator: </li>
   <li>Rapp Snitch Knishes - MF DOOM, Mr. Fantastik: Coming soon</li>
 </ul>
 
