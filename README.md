@@ -12,7 +12,7 @@
 <hr>
 <ul>
 <li>BEATBOX Project Block Diagram:</li>
-![BeatBox_BlockDiagram](https://github.com/user-attachments/assets/7f186a44-e445-405f-9d5e-07f808467c46)
+![image alt] (https://github.com/Antwann03/BEATBOX-ECE-425-Final-Project/blob/78ca7d9c4e4105423c831480d27a14daad8675eb/BeatBox_BlockDiagram.png)
 </ul>
 <h2>Project Status</h2>
 <hr><p>In Progress</p><h2>Improvements</h2>
