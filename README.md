@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-<<HEAD
+
 BeatBox_Project
 =======
 # BEATBOX-ECE-425-Final-Project
- 
-#BEATBOT ( )
 =======
 <h1>Introduction</h1>
 <hr><p>This repository contains the Keil uVision5 project files for my BEATBOX project, developed for the ECE 425 (Microprocessor Systems)class in Fall 2024. The project features a musical device powered by the TM4C123GXL LaunchPad, integrating a rotary encoder, 16x2 LCD, and a piezo buzzer to deliver customizable sound experiences.</p><h2>General Information</h2>
