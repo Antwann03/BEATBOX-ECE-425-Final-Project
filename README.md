@@ -14,8 +14,21 @@
   
 ![BeatBox_BlockDiagram](BeatBox_BlockDiagram.png)
 </ul>
-<h2>Project Status</h2>
-<hr><p>In Progress</p><h2>Improvements</h2>
+<h2>Components Used</h2>
+<hr><p>
+
+Colons can be used to align columns.
+
+|         Description                   | Quantity          |    Manufacturer   |
+|         -------------                 |:-------------:    | -----:            |
+| Tiva C Series TM4C123G LaunchPad      | 1                 | Texas Instruments |
+| USB-A to Micro-USB Cable              | 1                 |       N/A         |
+|         EduBase Board                 | 1                 |   Trainer4Edu     |
+|     Small Flathead Screwdriver        | 1                 |       N/A         |
+
+
+
+</p><h2>Improvements</h2>
 <hr><ul>
 <li>Improvement 1: The project will support displaying multiple custom characters on the 16x2 LCD Display. This feature is limited to 8-bit characters due to the CGRAM capacity of the display.</li>
 </ul><h2>Acknowledgement</h2>
