@@ -1,13 +1,29 @@
-### BEATBOX-ECE-425-Final-Project
-<h1>Introduction</h1>
-<hr><p>This repository contains the Keil uVision5 project files for my BEATBOX project, developed for the ECE 425 (Microprocessor Systems)class in Fall 2024. The project features a musical device powered by the TM4C123GXL LaunchPad, integrating a rotary encoder, 16x2 LCD, and a piezo buzzer to deliver customizable sound experiences.</p><h2>General Information</h2>
+<h1> BEATBOX-ECE-425-Final-Project</h1>
+  
+<h2>Introduction</h2>
+
+<hr><p>This repository contains the Keil uVision5 project files for my BEATBOX project, developed for the ECE 425 (Microprocessor Systems)class in Fall 2024. The project features a musical device powered by the TM4C123GXL LaunchPad, integrating a rotary encoder, 16x2 LCD, and a piezo buzzer to deliver customizable sound experiences.
+  
+<p>Performed By:</p>
+<ul>
+  <li>Antonio Anzora Jr</li>
+</ul>
+
+<p>Professor:</p>
+<ul>
+  <li>Aaron Nanas</li>
+</ul>
+
+</p><h2>Description</h2>
+
 <hr><ul>
 <li>The project utilizes the TM4C123GXL LaunchPad Microcontroller to create an interactive music player system capable of playing 4 different songs. The setup includes a piezo buzzer for audio input, a 16x2 LCD Display for menu navigation and song selection, a rotary encoder for user input, and jumper wires for connectivity. This combination allows users to select and play songs with visual feedback through display.</li>
 </ul><ul>
-<li>Traditional music players are costly or difficult to construct and sometimes lack the interactivity required for educational projects. To address these problems, this project will develop a straightforward, interactive music system. It uses a microcontroller, an LCD, a rotary encoder, and a piezo buzzer to enhance usability. The TM4C123GXL LaunchPad manages the user input and controls the system, the LCD provides visual feedback, the rotary encoder facilitates menu navigation, and the piezo buzzer produces audio output.</li>
+  
 </ul><ul>
 <li>This project aims to design and build a simple, cost-effective, and interactive music-playing device that can be used for educational purposes or as a prototype for more advanced projects. By incorporating a user-friendly interference through the rotary encoder and LCD, the system allows users to select and play 4 songs, with clear visual feedback on the display. This improves accessibility and usability compared to traditional music systems.</li>
 </ul>
+
 <h2>Block Diagram</h2>
 <hr>
 <ul>
@@ -17,7 +33,6 @@
 <h2>Components Used</h2>
 <hr><p>
 
-Colons can be used to align columns.
 
 |         Description                   | Quantity          |    Manufacturer   |
 |         -------------                 |:-------------:    | -----:            |
@@ -25,6 +40,8 @@ Colons can be used to align columns.
 | USB-A to Micro-USB Cable              | 1                 |       N/A         |
 |         EduBase Board                 | 1                 |   Trainer4Edu     |
 |     Small Flathead Screwdriver        | 1                 |       N/A         |
+|     PMOD ENC (Rotary Encoder)          | 1                 |       N/A         |
+
 
 
 
