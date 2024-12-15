@@ -34,21 +34,28 @@
 <hr><p>
 
 
-|         Description                   | Quantity          |    Manufacturer   |
-|         -------------                 |:-------------:    | -----:            |
-| Tiva C Series TM4C123G LaunchPad      | 1                 | Texas Instruments |
-| USB-A to Micro-USB Cable              | 1                 |       N/A         |
-|         EduBase Board                 | 1                 |   Trainer4Edu     |
-|     Small Flathead Screwdriver        | 1                 |       N/A         |
-|     PMOD ENC (Rotary Encoder)          | 1                 |       N/A         |
+|         Description                   | Quantity          |    Manufacturer   |    Price ($)       |    Link        |
+|         -------------                 |:-------------:    | -----:            |    -----:          |    -----:          |
+| Tiva C Series TM4C123G LaunchPad      | 1                 | Texas Instruments |   22.99 per unit   |    [Product Link](https://www.mouser.com/ProductDetail/Texas-Instruments/EK-TM4C123GXL?qs=TB%2FQ0sBK%2FGefKGr%252BQsiJWQ%3D%3D)       |
+| USB-A to Micro-USB Cable              | 1                 |       N/A         |   6.99 per unit    |    [Product Link](https://www.digikey.com/en/products/detail/sparkfun-electronics/CAB-24508/22321088?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-22321088_sig-CjwKCAiAmfq6BhAsEiwAX1jsZ-H07hC3CwGiLi2op_HnKewSouCI1NDJatIYMBnhYX5nmB_97Dw_4xoCQnAQAvD_BwE&gad_source=1&gclid=CjwKCAiAmfq6BhAsEiwAX1jsZ-H07hC3CwGiLi2op_HnKewSouCI1NDJatIYMBnhYX5nmB_97Dw_4xoCQnAQAvD_BwE&gclsrc=aw.ds)      |
+|         EduBase Board                 | 1                 |   Trainer4Edu     |   169.99 per unit  |    [Product Link](https://www.trainer4edu.com/edubase_v2/ti_arm_tiva_msp432_launchpad.html)       |
+|     Small Flathead Screwdriver        | 1                 |       N/A         |   1.19 per unit    |    [Product Link](https://www.sykessler.com/product/small-flat-head-screwdriver/)       |
+|     PMOD ENC (Rotary Encoder)         | 1                 |       N/A         |   6.99 per unit    |    [Product Link](https://digilent.com/shop/pmod-enc-rotary-encoder/?srsltid=AfmBOoogCrdWyBcuDFI5qA5gxddaanvtuNNJUkPz-lh6bLyRYOKz-AXH)       |
 
+</p>
 
+<h2>Songs Available</h2>
+<hr><p>
 
-
-</p><h2>Improvements</h2>
-<hr><ul>
-<li>Improvement 1: The project will support displaying multiple custom characters on the 16x2 LCD Display. This feature is limited to 8-bit characters due to the CGRAM capacity of the display.</li>
-</ul><h2>Acknowledgement</h2>
+| Song Name                  | Duration       | Genre          | Menu Option | Special Notes                            |
+|----------------------------|----------------|----------------|-------------|------------------------------------------|
+| Super Mario Bros Theme     | Approx. 1 min  | Video Game     | Option 1    | Nostalgic and iconic                     |
+| Doom Theme Song            | Approx. 1 min  | Game/Metal     | Option 2    | Intense and thrilling                    |
+| Like Him - Tyler the Creator | Approx. 1 min| Hip-Hop        | Option 3    | Reflective and deep                      |
+| **TBD:** MF Doom (MM..Food)| Approx. 1 min  | Hip-Hop        | Option 4    | A tribute to MF Doom's creative genius   |
+</p>
+</ul>
+<h2>Acknowledgement</h2>
 <hr><ul>
 <li>Ever since I was young, I have always enjoyed playing Super Mario Bros, which sparked my interest in learning how to display characters on an LCD. My initial plan was to familiarize myself with basic LCD display techniques and eventually move on to a more ambitious project—a Super Mario Bros game using a different type of LCD display. This is why I decided to include a mini animation for Mario with his theme song playing in the background. Another key motivation for choosing this project was the recent release of a new album by one of my favorite artists. This inspired me to explore the possibility of playing music through a piezo buzzer, combining my love for music with my interest in electronics and programming.</li>
 </ul><ul>
