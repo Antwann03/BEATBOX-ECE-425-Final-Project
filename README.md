@@ -9,7 +9,7 @@
 </ul><h2>Block Diagram</h2>
 <hr><ul>
 <li>BEATBOX Project Block Diagram:</li>
-![BEATBOX Project Block Diagram](BeatBox_BlockDiagram.png "BEATBOX Block Diagram")
+![BeatBox Block Diagram](BeatBox_BlockDiagram.png)
 </ul><h2>Project Status</h2>
 <hr><p>In Progress</p><h2>Improvements</h2>
 <hr><ul>
