@@ -1,6 +1,6 @@
 <h1>Introduction</h1>
 
-<hr><p>The Keil uVision5 project files for my BEATBOX project, created for the Fall 2024 ECE 425 (Microprocessor Systems) course, are available in this repository. The project makes use of the TM4C123GXL LaunchPad, including a rotary encoder, 16x2 LCD, and a piezo buzzer to create an interactive system in which users may pick and play different tunes. 
+<hr><p>The Keil uVision5 project files for my BEATBOX project, created for the Fall 2024 ECE 425 (Microprocessor Systems) course, are available in this repository. The project makes use of the TM4C123GXL LaunchPad, including a rotary encoder, 16x2 LCD, and a magnetic buzzer to create an interactive system in which users may pick and play different tunes. 
   
 <p>Performed By:</p>
 <ul>
@@ -15,28 +15,25 @@
 <h1>Description</h1>
 
 <hr><ul>
-<li>The project utilizes the TM4C123GXL LaunchPad Microcontroller to create an interactive music player system capable of playing 4 different songs. The setup includes a piezo buzzer for audio input, a 16x2 LCD Display for menu navigation and song selection, a rotary encoder for user input, and jumper wires for connectivity. This combination allows users to select and play songs with visual feedback through display.</li>
+<li>The project utilizes the TM4C123GXL LaunchPad Microcontroller to create an interactive music player system capable of playing 4 different songs. The setup includes a magnetico buzzer for audio input, a 16x2 LCD Display for menu navigation and song selection, a rotary encoder for user input, and jumper wires for connectivity. This combination allows users to select and play songs with visual feedback through display.</li>
 </ul>
 
 <h1>Project Goals</h1>
 
 - **Gain experience in designing a system that integrates hardware and software to create a functional music-playing device.**
-    - **Purpose**: This project will involve designing the hardware components (e.g., piezo buzzer, LCD, rotary encoder) and developing the software to interface with them, allowing for a seamless user experience.
+    - **Purpose**: This project will involve designing the hardware components (e.g., magnetic buzzer, LCD, rotary encoder) and developing the software to interface with them, allowing for a seamless user experience.
 
 - **Design and implement a user-friendly interface with a rotary encoder and LCD for song selection.**
     - **Purpose**: The goal is to create an easy-to-use interface that allows users to interact with the system by selecting songs through the rotary encoder while providing visual feedback on the LCD.
 
 - **Develop a software system that manages song playback and user inputs.**
-    - **Purpose**: The software will handle the playback of songs through the piezo buzzer and manage inputs from the rotary encoder, enabling users to select and play one of four songs. The software will also ensure smooth interaction between the hardware and the user.
+    - **Purpose**: The software will handle the playback of songs through the magnetic buzzer and manage inputs from the rotary encoder, enabling users to select and play one of four songs. The software will also ensure smooth interaction between the hardware and the user.
 
 - **Design and implement custom character display on the LCD using CGRAM.**
     - **Purpose**: This goal focuses on developing custom pixel art representations (e.g., Mario) for display on the 16x2 LCD. The custom characters will be stored in CGRAM and displayed based on user input or song selection.
 
-- **Optimize system performance to ensure responsive song selection and playback.**
-    - **Purpose**: This involves fine-tuning the system to ensure that the LCD interface and song playback remains smooth and responsive, even when switching between songs or interacting with the user interface.
-
 - **Learn to handle limited memory resources effectively for custom character and sound data.**
-    - **Purpose**: The project will provide experience in managing memory limitations, especially in terms of storing custom characters on the LCD and handling sound data for the piezo buzzer. This includes learning how to maximize the system's memory efficiency.
+    - **Purpose**: The project will provide experience in managing memory limitations, especially in terms of storing custom characters on the LCD and handling sound data for the magnetic buzzer. This includes learning how to maximize the system's memory efficiency.
 
 <h1>Video Demonstration</h1>
 <ul>
@@ -97,9 +94,9 @@ General Procedure:
 
 <h1>Acknowledgement</h1>
 <hr><ul>
-<li>Ever since I was young, I have always enjoyed playing Super Mario Bros, which sparked my interest in learning how to display characters on an LCD. My initial plan was to familiarize myself with basic LCD display techniques and eventually move on to a more ambitious project—a Super Mario Bros game using a different type of LCD display. This is why I decided to include a mini animation for Mario with his theme song playing in the background. Another key motivation for choosing this project was the recent release of a new album by one of my favorite artists. This inspired me to explore the possibility of playing music through a piezo buzzer, combining my love for music with my interest in electronics and programming.</li>
+<li>Ever since I was young, I have always enjoyed playing Super Mario Bros, which sparked my interest in learning how to display characters on an LCD. My initial plan was to familiarize myself with basic LCD display techniques and eventually move on to a more ambitious project—a Super Mario Bros game using a different type of LCD display. This is why I decided to include a mini animation for Mario with his theme song playing in the background. Another key motivation for choosing this project was the recent release of a new album by one of my favorite artists. This inspired me to explore the possibility of playing music through a magnetico buzzer, combining my love for music with my interest in electronics and programming.</li>
 </ul><ul>
-<li>This project was built upon various tutorials and guides that provided essential knowledge on programming the TM4C123GXL LaunchPad and interfacing with components such as the LCD, rotary encoder, and piezo buzzer. These resources helped me understand the necessary coding techniques and hardware connections required to develop the system.</li>
+<li>This project was built upon various tutorials and guides that provided essential knowledge on programming the TM4C123GXL LaunchPad and interfacing with components such as the LCD, rotary encoder, and magnetico buzzer. These resources helped me understand the necessary coding techniques and hardware connections required to develop the system.</li>
 </ul><ul>
 <li>I greatly appreciate the clear explanations and step-by-step instructions that made it possible to integrate these components seamlessly. Special thanks to Professor Aaron Nanas and the ECE 425 Microprocessor Systems course for their comprehensive insights and support throughout the development process.</li>
 </ul>
