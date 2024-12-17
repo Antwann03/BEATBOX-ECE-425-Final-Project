@@ -64,7 +64,7 @@
 <hr><p>
 
 | Song Name                  | Duration       | Genre          | Menu Option | Special Notes                            |
-|----------------------------|----------------|----------------|-------------|------------------------------------------|
+|:--------------------------:|:--------------:|:--------------:|:-----------:|:----------------------------------------:|
 | Super Mario Bros Theme     | Approx. 1 min  | Video Game     | Option 1    | Nostalgic and iconic                     |
 | Doom Theme Song            | Approx. 1 min  | Game/Metal     | Option 2    | Intense and thrilling                    |
 | Like Him - Tyler the Creator | Approx. 1 min| Hip-Hop        | Option 3    | Reflective and deep                      |
